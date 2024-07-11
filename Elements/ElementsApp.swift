@@ -11,7 +11,10 @@ import SwiftUI
 struct ElementsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+                    .navigationTitle("Elements")
+            }
         }
     }
 }
