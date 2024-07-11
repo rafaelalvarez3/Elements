@@ -62,7 +62,7 @@ struct PeriodicElementDetail: View {
                     .font(.title)
                     .padding()
                 Spacer()
-                Text("\(periodicElement.yearDiscovered)")
+                Text(String(periodicElement.yearDiscovered))
                     .font(.title)
                     .padding()
             }
