@@ -16,8 +16,8 @@ struct PeriodicElementRow: View {
                 .font(.largeTitle)
                 .padding()
             Spacer()
-            Text("\(periodicElement.id)")
-                .font(.title)
+            Image(systemName: "arrow.forward")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 .padding()
         }
     }
