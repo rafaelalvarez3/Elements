@@ -9,15 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List {
-            NavigationLink("Home View") {
-                HomeView()
-                    .navigationTitle("Home")
-            }
-        }
+        PeriodicElementList()
     }
 }
 
 #Preview {
     ContentView()
+        .environment(ModelData())
 }

@@ -9,7 +9,7 @@ import Foundation
 
 @Observable
 class ModelData {
-    var elements: [Element] = load("elements.json")
+    var periodicElements: [PeriodicElement] = load("periodicElements.json")
 }
 
 func load<T: Decodable>(_ filename: String) -> T {

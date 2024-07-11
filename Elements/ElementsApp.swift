@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct ElementsApp: App {
+    @State private var modelData = ModelData()
+    
     var body: some Scene {
         WindowGroup {
-            NavigationStack {
-                ContentView()
-                    .navigationTitle("Elements")
-            }
+            ContentView()
+                .environment(ModelData())
         }
     }
 }
