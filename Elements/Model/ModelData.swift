@@ -12,7 +12,6 @@ class ModelData {
     var elements: [Element] = load("elements.json")
 }
 
-
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
     

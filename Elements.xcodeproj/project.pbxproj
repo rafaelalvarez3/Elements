@@ -60,11 +60,11 @@
 		53E2D6E02C3F5B6300B43296 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
+				53E2D6E12C3F5B6300B43296 /* ElementsApp.swift */,
 				53E2D6F82C3F623100B43296 /* Model */,
 				53E2D6F32C3F5F2000B43296 /* Views */,
 				53E2D6F02C3F5DDF00B43296 /* Resources */,
 				53E2D6E32C3F5B6300B43296 /* ContentView.swift */,
-				53E2D6E12C3F5B6300B43296 /* ElementsApp.swift */,
 				53E2D6E52C3F5B6500B43296 /* Assets.xcassets */,
 				53E2D6EA2C3F5B6500B43296 /* Elements.entitlements */,
 				53E2D6E72C3F5B6500B43296 /* Preview Content */,
