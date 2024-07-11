@@ -1,0 +1,92 @@
+[
+    {
+        "atomicNumber": "1",
+        "name": "Hydrogen",
+        "atomicMass": "1.0080",
+        "symbol": "H",
+        "type": "Nonmetal",
+        "yearDiscovered": "1766",
+        "description": "The description for Hydrogen."
+    },
+    {
+        "atomicNumber": "2",
+        "name": "Helium",
+        "atomicMass": "4.00260",
+        "symbol": "He",
+        "type": "Noble gas",
+        "yearDiscovered": "1868",
+        "description": "The description for Helium."
+    },
+    {
+        "atomicNumber": "3",
+        "name": "Lithium",
+        "atomicMass": "7.0",
+        "symbol": "Li",
+        "type": "Alkali metal",
+        "yearDiscovered": "1817",
+        "description": "The description for Lithium."
+    },
+    {
+        "atomicNumber": "4",
+        "name": "Beryllium",
+        "atomicMass": "9.012183",
+        "symbol": "Be",
+        "type": "Alkaline earth metal",
+        "yearDiscovered": "1798",
+        "description": "The description for Beryllium."
+    },
+    {
+        "atomicNumber": "5",
+        "name": "Boron",
+        "atomicMass": "10.81",
+        "symbol": "B",
+        "type": "Metalloid",
+        "yearDiscovered": "1808",
+        "description": "The description for Boron."
+    },
+    {
+        "atomicNumber": "6",
+        "name": "Carbon",
+        "atomicMass": "12.011",
+        "symbol": "C",
+        "type": "Nonmetal",
+        "yearDiscovered": "Ancient",
+        "description": "The description for Carbon."
+    },
+    {
+        "atomicNumber": "7",
+        "name": "Nitrogen",
+        "atomicMass": "14.007",
+        "symbol": "N",
+        "type": "Nonemetal",
+        "yearDiscovered": "1772",
+        "description": "The description for Nitrogen."
+    },
+    {
+        "atomicNumber": "8",
+        "name": "Oxygen",
+        "atomicMass": "15.999",
+        "symbol": "O",
+        "type": "Nonemetal",
+        "yearDiscovered": "1774",
+        "description": "The description for Oxygen."
+    },
+    {
+        "atomicNumber": "9",
+        "name": "Fluorine",
+        "atomicMass": "18.99840316",
+        "symbol": "F",
+        "type": "Halogen",
+        "yearDiscovered": "1670",
+        "description": "The description for Fluorine."
+    },
+    {
+        "atomicNumber": "10",
+        "name": "Neon",
+        "atomicMass": "20.180",
+        "symbol": "Ne",
+        "type": "Noble gas",
+        "yearDiscovered": "1898",
+        "description": "The description for Neon."
+    }
+  ]
