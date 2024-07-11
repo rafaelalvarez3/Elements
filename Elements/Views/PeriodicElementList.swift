@@ -14,7 +14,12 @@ struct PeriodicElementList: View {
         NavigationStack {
             List {
                 ForEach(modelData.periodicElements) { element in
-                    PeriodicElementRow(periodicElement: element)
+                    NavigationLink {
+                        PeriodicElementDetail(periodicElement: element)
+                            .navigationTitle(element.name)
+                    } label: {
+                        PeriodicElementRow(periodicElement: element)
+                    }
                 }
             }
         }

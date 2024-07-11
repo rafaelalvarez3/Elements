@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53675D1C2C40779E00BB9195 /* PeriodicElementDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53675D1B2C40779E00BB9195 /* PeriodicElementDetail.swift */; };
 		5369999A2C405DA400773EC3 /* PeriodicElementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536999992C405DA400773EC3 /* PeriodicElementRow.swift */; };
 		5369999C2C40664F00773EC3 /* PeriodicElementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369999B2C40664F00773EC3 /* PeriodicElementList.swift */; };
 		53E2D6E22C3F5B6300B43296 /* ElementsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E2D6E12C3F5B6300B43296 /* ElementsApp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		53675D1B2C40779E00BB9195 /* PeriodicElementDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicElementDetail.swift; sourceTree = "<group>"; };
 		536999992C405DA400773EC3 /* PeriodicElementRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicElementRow.swift; sourceTree = "<group>"; };
 		5369999B2C40664F00773EC3 /* PeriodicElementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicElementList.swift; sourceTree = "<group>"; };
 		53E2D6DE2C3F5B6300B43296 /* Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elements.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			children = (
 				536999992C405DA400773EC3 /* PeriodicElementRow.swift */,
 				5369999B2C40664F00773EC3 /* PeriodicElementList.swift */,
+				53675D1B2C40779E00BB9195 /* PeriodicElementDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				53E2D6E42C3F5B6300B43296 /* ContentView.swift in Sources */,
 				53E2D6E22C3F5B6300B43296 /* ElementsApp.swift in Sources */,
 				5369999C2C40664F00773EC3 /* PeriodicElementList.swift in Sources */,
+				53675D1C2C40779E00BB9195 /* PeriodicElementDetail.swift in Sources */,
 				5369999A2C405DA400773EC3 /* PeriodicElementRow.swift in Sources */,
 				53E2D6FC2C3F62FF00B43296 /* PeriodicElement.swift in Sources */,
 			);

@@ -13,6 +13,11 @@ struct PeriodicElementRow: View {
     var body: some View {
         HStack {
             Text(periodicElement.name)
+                .font(.largeTitle)
+                .padding()
+            Spacer()
+            Text("\(periodicElement.id)")
+                .font(.title)
                 .padding()
         }
     }
@@ -22,5 +27,8 @@ struct PeriodicElementRow: View {
     let periodicElements = ModelData().periodicElements
     return Group {
         PeriodicElementRow(periodicElement: periodicElements[0])
+        PeriodicElementRow(periodicElement: periodicElements[1])
+        PeriodicElementRow(periodicElement: periodicElements[2])
+        PeriodicElementRow(periodicElement: periodicElements[3])
     }
 }
