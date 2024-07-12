@@ -12,11 +12,10 @@ enum ElementType {
     case alkaliMetal
     case alkalineEarthMetal
     case transitionMetal
-    case otherMetal
-    case otherNonMetal
+    case postTransitionMetal
+    case metalloid
     case halogen
     case nobleGas
-    case rareEarth
     case lanthanoid
     case actinoid
     
@@ -28,15 +27,15 @@ enum ElementType {
             return .red
         case .transitionMetal:
             return .brown
-        case .otherMetal:
+        case .postTransitionMetal:
             return .mint
-        case .otherNonMetal:
+        case .metalloid:
             return .pink
         case .halogen:
             return .green
         case .nobleGas:
             return .white
-        case .rareEarth, .lanthanoid:
+        case .lanthanoid:
             return .yellow
         case .actinoid:
             return .cyan

@@ -70,6 +70,13 @@ struct PeriodicElementCell: View {
                 PeriodicElementCell(periodicElement: periodicElements[8])
                 PeriodicElementCell(periodicElement: periodicElements[9])
             }
+            HStack {
+                PeriodicElementCell(periodicElement: periodicElements[10])
+                PeriodicElementCell(periodicElement: periodicElements[11])
+                PeriodicElementCell(periodicElement: periodicElements[12])
+                PeriodicElementCell(periodicElement: periodicElements[13])
+                PeriodicElementCell(periodicElement: periodicElements[14])
+            }
         }
         .padding()
         
