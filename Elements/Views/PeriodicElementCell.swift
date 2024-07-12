@@ -13,10 +13,10 @@ struct PeriodicElementCell: View {
     var body: some View {
         VStack {
             Spacer()
-                .frame(height: 10)
+                .frame(height: 14)
             HStack {
                 Spacer()
-                    .frame(width: 15)
+                    .frame(width: 14)
                 
                 Text("\(periodicElement.id)")
                     .font(.system(size: 35))
@@ -36,7 +36,12 @@ struct PeriodicElementCell: View {
                 Spacer()
             }
             Spacer()
-                .frame(height: 50)
+                .frame(height: 30)
+            Capsule()
+                .fill(.orange)
+                .frame(width: 175, height: 10)
+            Spacer()
+                .frame(height: 20)
         }
         .background(
             RoundedRectangle(cornerRadius: 10)

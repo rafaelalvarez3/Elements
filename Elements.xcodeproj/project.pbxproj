@@ -11,6 +11,7 @@
 		5369999A2C405DA400773EC3 /* PeriodicElementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536999992C405DA400773EC3 /* PeriodicElementRow.swift */; };
 		5369999C2C40664F00773EC3 /* PeriodicElementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369999B2C40664F00773EC3 /* PeriodicElementList.swift */; };
 		53B2F1CB2C416DE9000B1E36 /* PeriodicElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2F1CA2C416DE8000B1E36 /* PeriodicElementCell.swift */; };
+		53B2F1CD2C41950B000B1E36 /* PeriodicElementTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B2F1CC2C41950B000B1E36 /* PeriodicElementTable.swift */; };
 		53E2D6E22C3F5B6300B43296 /* ElementsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E2D6E12C3F5B6300B43296 /* ElementsApp.swift */; };
 		53E2D6E42C3F5B6300B43296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E2D6E32C3F5B6300B43296 /* ContentView.swift */; };
 		53E2D6E62C3F5B6500B43296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E2D6E52C3F5B6500B43296 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		536999992C405DA400773EC3 /* PeriodicElementRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicElementRow.swift; sourceTree = "<group>"; };
 		5369999B2C40664F00773EC3 /* PeriodicElementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicElementList.swift; sourceTree = "<group>"; };
 		53B2F1CA2C416DE8000B1E36 /* PeriodicElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicElementCell.swift; sourceTree = "<group>"; };
+		53B2F1CC2C41950B000B1E36 /* PeriodicElementTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicElementTable.swift; sourceTree = "<group>"; };
 		53E2D6DE2C3F5B6300B43296 /* Elements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E2D6E12C3F5B6300B43296 /* ElementsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsApp.swift; sourceTree = "<group>"; };
 		53E2D6E32C3F5B6300B43296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				5369999B2C40664F00773EC3 /* PeriodicElementList.swift */,
 				53675D1B2C40779E00BB9195 /* PeriodicElementDetail.swift */,
 				53B2F1CA2C416DE8000B1E36 /* PeriodicElementCell.swift */,
+				53B2F1CC2C41950B000B1E36 /* PeriodicElementTable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				53E2D6FA2C3F62A300B43296 /* ModelData.swift in Sources */,
 				53E2D6E42C3F5B6300B43296 /* ContentView.swift in Sources */,
 				53E2D6E22C3F5B6300B43296 /* ElementsApp.swift in Sources */,
+				53B2F1CD2C41950B000B1E36 /* PeriodicElementTable.swift in Sources */,
 				5369999C2C40664F00773EC3 /* PeriodicElementList.swift in Sources */,
 				53675D1C2C40779E00BB9195 /* PeriodicElementDetail.swift in Sources */,
 				53B2F1CB2C416DE9000B1E36 /* PeriodicElementCell.swift in Sources */,
