@@ -4,7 +4,7 @@
         "name": "Hydrogen",
         "atomicMass": 1.0080,
         "symbol": "H",
-        "elementType": "Nonmetal",
+        "elementType": "nonmetal",
         "yearDiscovered": 1766,
         "description": "The description for Hydrogen."
     },
@@ -13,7 +13,7 @@
         "name": "Helium",
         "atomicMass": 4.00260,
         "symbol": "He",
-        "elementType": "Noble gas",
+        "elementType": "noble gas",
         "yearDiscovered": 1868,
         "description": "The description for Helium."
     },
@@ -22,7 +22,7 @@
         "name": "Lithium",
         "atomicMass": 7.0,
         "symbol": "Li",
-        "elementType": "Alkali metal",
+        "elementType": "alkali metal",
         "yearDiscovered": 1817,
         "description": "The description for Lithium."
     },
@@ -31,7 +31,7 @@
         "name": "Beryllium",
         "atomicMass": 9.012183,
         "symbol": "Be",
-        "elementType": "Alkaline earth metal",
+        "elementType": "alkaline earth metal",
         "yearDiscovered": 1798,
         "description": "The description for Beryllium."
     },
@@ -40,7 +40,7 @@
         "name": "Boron",
         "atomicMass": 10.81,
         "symbol": "B",
-        "elementType": "Metalloid",
+        "elementType": "metalloid",
         "yearDiscovered": 1808,
         "description": "The description for Boron."
     },
@@ -49,7 +49,7 @@
         "name": "Carbon",
         "atomicMass": 12.011,
         "symbol": "C",
-        "elementType": "Nonmetal",
+        "elementType": "nonmetal",
         "yearDiscovered": 1789,
         "description": "The description for Carbon."
     },
@@ -58,7 +58,7 @@
         "name": "Nitrogen",
         "atomicMass": 14.007,
         "symbol": "N",
-        "elementType": "Nonmetal",
+        "elementType": "nonmetal",
         "yearDiscovered": 1772,
         "description": "The description for Nitrogen."
     },
@@ -67,7 +67,7 @@
         "name": "Oxygen",
         "atomicMass": 15.999,
         "symbol": "O",
-        "elementType": "Nonmetal",
+        "elementType": "nonmetal",
         "yearDiscovered": 1774,
         "description": "The description for Oxygen."
     },
@@ -76,7 +76,7 @@
         "name": "Fluorine",
         "atomicMass": 18.99840316,
         "symbol": "F",
-        "elementType": "Halogen",
+        "elementType": "halogen",
         "yearDiscovered": 1670,
         "description": "The description for Fluorine."
     },
@@ -85,8 +85,980 @@
         "name": "Neon",
         "atomicMass": 20.180,
         "symbol": "Ne",
-        "elementType": "Noble gas",
+        "elementType": "noble gas",
         "yearDiscovered": 1898,
         "description": "The description for Neon."
+    },
+    {
+        "id": 11,
+        "name": "Sodium",
+        "atomicMass": 22.9897693,
+        "symbol": "Na",
+        "elementType": "alkali metal",
+        "yearDiscovered": 1807,
+        "description": "The description for Sodium."
+    },
+    {
+        "id": 12,
+        "name": "Magnesium",
+        "atomicMass": 24.305,
+        "symbol": "Mg",
+        "elementType": "alkaline earth metal",
+        "yearDiscovered": 1808,
+        "description": "The description for Magnesium."
+    },
+    {
+        "id": 13,
+        "name": "Aluminum",
+        "atomicMass": 26.981538,
+        "symbol": "Al",
+        "elementType": "metal",
+        "yearDiscovered": 1825,
+        "description": "The description for Aluminum."
+    },
+    {
+        "id": 14,
+        "name": "Silicon",
+        "atomicMass": 28.085,
+        "symbol": "Si",
+        "elementType": "metalloid",
+        "yearDiscovered": 1854,
+        "description": "The description for Silicon."
+    },
+    {
+        "id": 15,
+        "name": "Phosphorus",
+        "atomicMass": 30.97376200,
+        "symbol": "P",
+        "elementType": "nonmetal",
+        "yearDiscovered": 1669,
+        "description": "The description for Phosphorus."
+    },
+    {
+        "id": 16,
+        "name": "Sulfur",
+        "atomicMass": 32.07,
+        "symbol": "S",
+        "elementType": "nonmetal",
+        "yearDiscovered": 0,
+        "description": "The description for Sulfur."
+    },
+    {
+        "id": 17,
+        "name": "Chlorine",
+        "atomicMass": 35.45,
+        "symbol": "Cl",
+        "elementType": "halogen",
+        "yearDiscovered": 1774,
+        "description": "The description for Chlorine."
+    },
+    {
+        "id": 18,
+        "name": "Argon",
+        "atomicMass": 39.9,
+        "symbol": "Ar",
+        "elementType": "noble gas",
+        "yearDiscovered": 1894,
+        "description": "The description for Argon."
+    },
+    {
+        "id": 19,
+        "name": "Potassium",
+        "atomicMass": 39.0983,
+        "symbol": "K",
+        "elementType": "alkali metal",
+        "yearDiscovered": 1807,
+        "description": "The description for Potassium."
+    },
+    {
+        "id": 20,
+        "name": "Calcium",
+        "atomicMass": 40.08,
+        "symbol": "Ca",
+        "elementType": "alkaline earth metal",
+        "yearDiscovered": 0,
+        "description": "The description for Calcium."
+    },
+    {
+        "id": 21,
+        "symbol": "Sc",
+        "name": "Scandium",
+        "atomicMass": 44.955912,
+        "elementType": "transition metal",
+        "yearDiscovered": 1876,
+        "description": "The description for Scandium."
+    },
+    {
+        "id": 22,
+        "symbol": "Ti",
+        "name": "Titanium",
+        "atomicMass": 47.867,
+        "elementType": "transition metal",
+        "yearDiscovered": 1791,
+        "description": "The description for Titanium."
+    },
+    {
+        "id": 23,
+        "symbol": "V",
+        "name": "Vanadium",
+        "atomicMass": 50.9415,
+        "elementType": "transition metal",
+        "yearDiscovered": 1803,
+        "description": "The description for Vanadium."
+    },
+    {
+        "id": 24,
+        "symbol": "Cr",
+        "name": "Chromium",
+        "atomicMass": 51.9961,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Chromium."
+    },
+    {
+        "id": 25,
+        "symbol": "Mn",
+        "name": "Manganese",
+        "atomicMass": 54.938045,
+        "elementType": "transition metal",
+        "yearDiscovered": 1774,
+        "description": "The description for Manganese."
+    },
+    {
+        "id": 26,
+        "symbol": "Fe",
+        "name": "Iron",
+        "atomicMass": 55.845,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Iron."
+    },
+    {
+        "id": 27,
+        "symbol": "Co",
+        "name": "Cobalt",
+        "atomicMass": 58.933195,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Cobalt."
+    },
+    {
+        "id": 28,
+        "symbol": "Ni",
+        "name": "Nickel",
+        "atomicMass": 58.6934,
+        "elementType": "transition metal",
+        "yearDiscovered": 1751,
+        "description": "The description for Nickel."
+    },
+    {
+        "id": 29,
+        "symbol": "Cu",
+        "name": "Copper",
+        "atomicMass": 63.546,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Copper."
+    },
+    {
+        "id": 30,
+        "symbol": "Zn",
+        "name": "Zinc",
+        "atomicMass": 65.38,
+        "elementType": "transition metal",
+        "yearDiscovered": 1746,
+        "description": "The description for Zinc."
+    },
+    {
+        "id": 31,
+        "symbol": "Ga",
+        "name": "Gallium",
+        "atomicMass": 69.723,
+        "elementType": "metal",
+        "yearDiscovered": 1875,
+        "description": "The description for Gallium."
+    },
+    {
+        "id": 32,
+        "symbol": "Ge",
+        "name": "Germanium",
+        "atomicMass": 72.64,
+        "elementType": "metalloid",
+        "yearDiscovered": 1886,
+        "description": "The description for Germanium."
+    },
+    {
+        "id": 33,
+        "symbol": "As",
+        "name": "Arsenic",
+        "atomicMass": 74.92160,
+        "elementType": "metalloid",
+        "yearDiscovered": 0,
+        "description": "The description for Arsenic."
+    },
+    {
+        "id": 34,
+        "symbol": "Se",
+        "name": "Selenium",
+        "atomicMass": 78.96,
+        "elementType": "nonmetal",
+        "yearDiscovered": 1817,
+        "description": "The description for Selenium."
+    },
+    {
+        "id": 35,
+        "symbol": "Br",
+        "name": "Bromine",
+        "atomicMass": 79.904,
+        "elementType": "halogen",
+        "yearDiscovered": 1826,
+        "description": "The description for Bromine."
+    },
+    {
+        "id": 36,
+        "symbol": "Kr",
+        "name": "Krypton",
+        "atomicMass": 83.798,
+        "elementType": "noble gas",
+        "yearDiscovered": 1898,
+        "description": "The description for Krypton."
+    },
+    {
+        "id": 37,
+        "symbol": "Rb",
+        "name": "Rubidium",
+        "atomicMass": 85.4678,
+        "elementType": "alkali metal",
+        "yearDiscovered": 1861,
+        "description": "The description for Rubidium."
+    },
+    {
+        "id": 38,
+        "symbol": "Sr",
+        "name": "Strontium",
+        "atomicMass": 87.62,
+        "elementType": "alkaline earth metal",
+        "yearDiscovered": 1790,
+        "description": "The description for Strontium."
+    },
+    {
+        "id": 39,
+        "symbol": "Y",
+        "name": "Yttrium",
+        "atomicMass": 88.90585,
+        "elementType": "transition metal",
+        "yearDiscovered": 1794,
+        "description": "The description for Yttrium."
+    },
+    {
+        "id": 40,
+        "symbol": "Zr",
+        "name": "Zirconium",
+        "atomicMass": 91.224,
+        "elementType": "transition metal",
+        "yearDiscovered": 1789,
+        "description": "The description for Zirconium."
+    },
+    {
+        "id": 41,
+        "symbol": "Nb",
+        "name": "Niobium",
+        "atomicMass": 92.90638,
+        "elementType": "transition metal",
+        "yearDiscovered": 1801,
+        "description": "The description for Niobium."
+    },
+    {
+        "id": 42,
+        "symbol": "Mo",
+        "name": "Molybdenum",
+        "atomicMass": 95.96,
+        "elementType": "transition metal",
+        "yearDiscovered": 1778,
+        "description": "The description for Molybdenum."
+    },
+    {
+        "id": 43,
+        "symbol": "Tc",
+        "name": "Technetium",
+        "atomicMass": 98,
+        "elementType": "transition metal",
+        "yearDiscovered": 1937,
+        "description": "The description for Technetium."
+    },
+    {
+        "id": 44,
+        "symbol": "Ru",
+        "name": "Ruthenium",
+        "atomicMass": 101.07,
+        "elementType": "transition metal",
+        "yearDiscovered": 1827,
+        "description": "The description for Ruthenium."
+    },
+    {
+        "id": 45,
+        "symbol": "Rh",
+        "name": "Rhodium",
+        "atomicMass": 102.90550,
+        "elementType": "transition metal",
+        "yearDiscovered": 1803,
+        "description": "The description for Rhodium."
+    },
+    {
+        "id": 46,
+        "symbol": "Pd",
+        "name": "Palladium",
+        "atomicMass": 106.42,
+        "elementType": "transition metal",
+        "yearDiscovered": 1803,
+        "description": "The description for Palladium."
+    },
+    {
+        "id": 47,
+        "symbol": "Ag",
+        "name": "Silver",
+        "atomicMass": 107.8682,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Silver."
+    },
+    {
+        "id": 48,
+        "symbol": "Cd",
+        "name": "Cadmium",
+        "atomicMass": 112.411,
+        "elementType": "transition metal",
+        "yearDiscovered": 1817,
+        "description": "The description for Cadmium."
+    },
+    {
+        "id": 49,
+        "symbol": "In",
+        "name": "Indium",
+        "atomicMass": 114.818,
+        "elementType": "metal",
+        "yearDiscovered": 1863,
+        "description": "The description for Indium."
+    },
+    {
+        "id": 50,
+        "symbol": "Sn",
+        "name": "Tin",
+        "atomicMass": 118.710,
+        "elementType": "metal",
+        "yearDiscovered": 0,
+        "description": "The description for Tin."
+    },
+    {
+        "id": 51,
+        "symbol": "Sb",
+        "name": "Antimony",
+        "atomicMass": 121.760,
+        "elementType": "metalloid",
+        "yearDiscovered": 0,
+        "description": "The description for Antimony."
+    },
+    {
+        "id": 52,
+        "symbol": "Te",
+        "name": "Tellurium",
+        "atomicMass": 127.60,
+        "elementType": "metalloid",
+        "yearDiscovered": 1782,
+        "description": "The description for Tellurium."
+    },
+    {
+        "id": 53,
+        "symbol": "I",
+        "name": "Iodine",
+        "atomicMass": 126.90447,
+        "elementType": "halogen",
+        "yearDiscovered": 1811,
+        "description": "The description for Iodine."
+    },
+    {
+        "id": 54,
+        "symbol": "Xe",
+        "name": "Xenon",
+        "atomicMass": 131.293,
+        "elementType": "noble gas",
+        "yearDiscovered": 1898,
+        "description": "The description for Xenon."
+    },
+    {
+        "id": 55,
+        "symbol": "Cs",
+        "name": "Cesium",
+        "atomicMass": 132.9054519,
+        "elementType": "alkali metal",
+        "yearDiscovered": 1860,
+        "description": "The description for Cesium."
+    },
+    {
+        "id": 56,
+        "symbol": "Ba",
+        "name": "Barium",
+        "atomicMass": 137.327,
+        "elementType": "alkaline earth metal",
+        "yearDiscovered": 1808,
+        "description": "The description for Barium."
+    },
+    {
+        "id": 57,
+        "symbol": "La",
+        "name": "Lanthanum",
+        "atomicMass": 138.90547,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1839,
+        "description": "The description for Lanthanum."
+    },
+    {
+        "id": 58,
+        "symbol": "Ce",
+        "name": "Cerium",
+        "atomicMass": 140.116,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1803,
+        "description": "The description for Cerium."
+    },
+    {
+        "id": 59,
+        "symbol": "Pr",
+        "name": "Praseodymium",
+        "atomicMass": 140.90765,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1885,
+        "description": "The description for Praseodymium."
+    },
+    {
+        "id": 60,
+        "symbol": "Nd",
+        "name": "Neodymium",
+        "atomicMass": 144.242,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1885,
+        "description": "The description for Neodymium."
+    },
+    {
+        "id": 61,
+        "symbol": "Pm",
+        "name": "Promethium",
+        "atomicMass": 145,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1947,
+        "description": "The description for Promethium."
+    },
+    {
+        "id": 62,
+        "symbol": "Sm",
+        "name": "Samarium",
+        "atomicMass": 150.36,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1853,
+        "description": "The description for Samarium."
+    },
+    {
+        "id": 63,
+        "symbol": "Eu",
+        "name": "Europium",
+        "atomicMass": 151.964,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1901,
+        "description": "The description for Europium."
+    },
+    {
+        "id": 64,
+        "symbol": "Gd",
+        "name": "Gadolinium",
+        "atomicMass": 157.25,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1880,
+        "description": "The description for Gadolinium."
+    },
+    {
+        "id": 65,
+        "symbol": "Tb",
+        "name": "Terbium",
+        "atomicMass": 158.92535,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1843,
+        "description": "The description for Terbium."
+    },
+    {
+        "id": 66,
+        "symbol": "Dy",
+        "name": "Dysprosium",
+        "atomicMass": 162.500,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1886,
+        "description": "The description for Dysprosium."
+    },
+    {
+        "id": 67,
+        "symbol": "Ho",
+        "name": "Holmium",
+        "atomicMass": 164.93032,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1878,
+        "description": "The description for Holmium."
+    },
+    {
+        "id": 68,
+        "symbol": "Er",
+        "name": "Erbium",
+        "atomicMass": 167.259,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1842,
+        "description": "The description for Erbium."
+    },
+    {
+        "id": 69,
+        "symbol": "Tm",
+        "name": "Thulium",
+        "atomicMass": 168.93421,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1879,
+        "description": "The description for Thulium."
+    },
+    {
+        "id": 70,
+        "symbol": "Yb",
+        "name": "Ytterbium",
+        "atomicMass": 173.054,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1878,
+        "description": "The description for Ytterbium."
+    },
+    {
+        "id": 71,
+        "symbol": "Lu",
+        "name": "Lutetium",
+        "atomicMass": 174.9668,
+        "elementType": "lanthanoid",
+        "yearDiscovered": 1907,
+        "description": "The description for Lutetium."
+    },
+    {
+        "id": 72,
+        "symbol": "Hf",
+        "name": "Hafnium",
+        "atomicMass": 178.49,
+        "elementType": "transition metal",
+        "yearDiscovered": 1923,
+        "description": "The description for Hafnium."
+    },
+    {
+        "id": 73,
+        "symbol": "Ta",
+        "name": "Tantalum",
+        "atomicMass": 180.94788,
+        "elementType": "transition metal",
+        "yearDiscovered": 1802,
+        "description": "The description for Tantalum."
+    },
+    {
+        "id": 74,
+        "symbol": "W",
+        "name": "Tungsten",
+        "atomicMass": 183.84,
+        "elementType": "transition metal",
+        "yearDiscovered": 1783,
+        "description": "The description for Tungsten."
+    },
+    {
+        "id": 75,
+        "symbol": "Re",
+        "name": "Rhenium",
+        "atomicMass": 186.207,
+        "elementType": "transition metal",
+        "yearDiscovered": 1925,
+        "description": "The description for Rhenium."
+    },
+    {
+        "id": 76,
+        "symbol": "Os",
+        "name": "Osmium",
+        "atomicMass": 190.23,
+        "elementType": "transition metal",
+        "yearDiscovered": 1803,
+        "description": "The description for Osmium."
+    },
+    {
+        "id": 77,
+        "symbol": "Ir",
+        "name": "Iridium",
+        "atomicMass": 192.217,
+        "elementType": "transition metal",
+        "yearDiscovered": 1803,
+        "description": "The description for Iridium."
+    },
+    {
+        "id": 78,
+        "symbol": "Pt",
+        "name": "Platinum",
+        "atomicMass": 195.084,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Platinum."
+    },
+    {
+        "id": 79,
+        "symbol": "Au",
+        "name": "Gold",
+        "atomicMass": 196.966569,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Gold."
+    },
+    {
+        "id": 80,
+        "symbol": "Hg",
+        "name": "Mercury",
+        "atomicMass": 200.59,
+        "elementType": "transition metal",
+        "yearDiscovered": 0,
+        "description": "The description for Mercury."
+    },
+    {
+        "id": 81,
+        "symbol": "Tl",
+        "name": "Thallium",
+        "atomicMass": 204.3833,
+        "elementType": "metal",
+        "yearDiscovered": 1861,
+        "description": "The description for Thallium."
+    },
+    {
+        "id": 82,
+        "symbol": "Pb",
+        "name": "Lead",
+        "atomicMass": 207.2,
+        "elementType": "metal",
+        "yearDiscovered": 0,
+        "description": "The description for Lead."
+    },
+    {
+        "id": 83,
+        "symbol": "Bi",
+        "name": "Bismuth",
+        "atomicMass": 208.98040,
+        "elementType": "metal",
+        "yearDiscovered": 0,
+        "description": "The description for Bismuth."
+    },
+    {
+        "id": 84,
+        "symbol": "Po",
+        "name": "Polonium",
+        "atomicMass": 209,
+        "elementType": "metalloid",
+        "yearDiscovered": 1898,
+        "description": "The description for Polonium."
+    },
+    {
+        "id": 85,
+        "symbol": "At",
+        "name": "Astatine",
+        "atomicMass": 210,
+        "elementType": "halogen",
+        "yearDiscovered": 1940,
+        "description": "The description for Astatine."
+    },
+    {
+        "id": 86,
+        "symbol": "Rn",
+        "name": "Radon",
+        "atomicMass": 222,
+        "elementType": "noble gas",
+        "yearDiscovered": 1900,
+        "description": "The description for Radon."
+    },
+    {
+        "id": 87,
+        "symbol": "Fr",
+        "name": "Francium",
+        "atomicMass": 223,
+        "elementType": "alkali metal",
+        "yearDiscovered": 1939,
+        "description": "The description for Francium."
+    },
+    {
+        "id": 88,
+        "symbol": "Ra",
+        "name": "Radium",
+        "atomicMass": 226,
+        "elementType": "alkaline earth metal",
+        "yearDiscovered": 1898,
+        "description": "The description for Radium."
+    },
+    {
+        "id": 89,
+        "symbol": "Ac",
+        "name": "Actinium",
+        "atomicMass": 227,
+        "elementType": "actinoid",
+        "yearDiscovered": 1899,
+        "description": "The description for Actinium."
+    },
+    {
+        "id": 90,
+        "symbol": "Th",
+        "name": "Thorium",
+        "atomicMass": 232.03806,
+        "elementType": "actinoid",
+        "yearDiscovered": 1828,
+        "description": "The description for Thorium."
+    },
+    {
+        "id": 91,
+        "symbol": "Pa",
+        "name": "Protactinium",
+        "atomicMass": 231.03588,
+        "elementType": "actinoid",
+        "yearDiscovered": 1913,
+        "description": "The description for Protactinium."
+    },
+    {
+        "id": 92,
+        "symbol": "U",
+        "name": "Uranium",
+        "atomicMass": 238.02891,
+        "elementType": "actinoid",
+        "yearDiscovered": 1789,
+        "description": "The description for Uranium."
+    },
+    {
+        "id": 93,
+        "symbol": "Np",
+        "name": "Neptunium",
+        "atomicMass": 237,
+        "elementType": "actinoid",
+        "yearDiscovered": 1940,
+        "description": "The description for Neptunium."
+    },
+    {
+        "id": 94,
+        "symbol": "Pu",
+        "name": "Plutonium",
+        "atomicMass": 244,
+        "elementType": "actinoid",
+        "yearDiscovered": 1940,
+        "description": "The description for Plutonium."
+    },
+    {
+        "id": 95,
+        "symbol": "Am",
+        "name": "Americium",
+        "atomicMass": 243,
+        "elementType": "actinoid",
+        "yearDiscovered": 1944,
+        "description": "The description for Americium."
+    },
+    {
+        "id": 96,
+        "symbol": "Cm",
+        "name": "Curium",
+        "atomicMass": 247,
+        "elementType": "actinoid",
+        "yearDiscovered": 1944,
+        "description": "The description for Curium."
+    },
+    {
+        "id": 97,
+        "symbol": "Bk",
+        "name": "Berkelium",
+        "atomicMass": 247,
+        "elementType": "actinoid",
+        "yearDiscovered": 1949,
+        "description": "The description for Berkelium."
+    },
+    {
+        "id": 98,
+        "symbol": "Cf",
+        "name": "Californium",
+        "atomicMass": 251,
+        "elementType": "actinoid",
+        "yearDiscovered": 1950,
+        "description": "The description for Californium."
+    },
+    {
+        "id": 99,
+        "symbol": "Es",
+        "name": "Einsteinium",
+        "atomicMass": 252,
+        "elementType": "actinoid",
+        "yearDiscovered": 1952,
+        "description": "The description for Einsteinium."
+    },
+    {
+        "id": 100,
+        "symbol": "Fm",
+        "name": "Fermium",
+        "atomicMass": 257,
+        "elementType": "actinoid",
+        "yearDiscovered": 1952,
+        "description": "The description for Fermium."
+    },
+    {
+        "id": 101,
+        "symbol": "Md",
+        "name": "Mendelevium",
+        "atomicMass": 258,
+        "elementType": "actinoid",
+        "yearDiscovered": 1955,
+        "description": "The description for Mendelevium."
+    },
+    {
+        "id": 102,
+        "symbol": "No",
+        "name": "Nobelium",
+        "atomicMass": 259,
+        "elementType": "actinoid",
+        "yearDiscovered": 1957,
+        "description": "The description for Nobelium."
+    },
+    {
+        "id": 103,
+        "symbol": "Lr",
+        "name": "Lawrencium",
+        "atomicMass": 262,
+        "elementType": "transition metal",
+        "yearDiscovered": 1961,
+        "description": "The description for Lawrencium."
+    },
+    {
+        "id": 104,
+        "symbol": "Rf",
+        "name": "Rutherfordium",
+        "atomicMass": 267,
+        "elementType": "transition metal",
+        "yearDiscovered": 1969,
+        "description": "The description for Rutherfordium."
+    },
+    {
+        "id": 105,
+        "symbol": "Db",
+        "name": "Dubnium",
+        "atomicMass": 268,
+        "elementType": "transition metal",
+        "yearDiscovered": 1967,
+        "description": "The description for Dubnium."
+    },
+    {
+        "id": 106,
+        "symbol": "Sg",
+        "name": "Seaborgium",
+        "atomicMass": 271,
+        "elementType": "transition metal",
+        "yearDiscovered": 1974,
+        "description": "The description for Seaborgium."
+    },
+    {
+        "id": 107,
+        "symbol": "Bh",
+        "name": "Bohrium",
+        "atomicMass": 272,
+        "elementType": "transition metal",
+        "yearDiscovered": 1976,
+        "description": "The description for Bohrium."
+    },
+    {
+        "id": 108,
+        "symbol": "Hs",
+        "name": "Hassium",
+        "atomicMass": 270,
+        "elementType": "transition metal",
+        "yearDiscovered": 1984,
+        "description": "The description for Hassium."
+    },
+    {
+        "id": 109,
+        "symbol": "Mt",
+        "name": "Meitnerium",
+        "atomicMass": 276,
+        "elementType": "transition metal",
+        "yearDiscovered": 1982,
+        "description": "The description for Meitnerium."
+    },
+    {
+        "id": 110,
+        "symbol": "Ds",
+        "name": "Darmstadtium",
+        "atomicMass": 281,
+        "elementType": "transition metal",
+        "yearDiscovered": 1994,
+        "description": "The description for Darmstadtium."
+    },
+    {
+        "id": 111,
+        "symbol": "Rg",
+        "name": "Roentgenium",
+        "atomicMass": 280,
+        "elementType": "transition metal",
+        "yearDiscovered": 1994,
+        "description": "The description for Roentgenium."
+    },
+    {
+        "id": 112,
+        "symbol": "Cn",
+        "name": "Copernicium",
+        "atomicMass": 285,
+        "elementType": "transition metal",
+        "yearDiscovered": 1996,
+        "description": "The description for Copernicium."
+    },
+    {
+        "id": 113,
+        "symbol": "Nh",
+        "name": "Nihonium",
+        "atomicMass": 284,
+        "elementType": "post-transition metal",
+        "yearDiscovered": 2003,
+        "description": "The description for Nihonium."
+    },
+    {
+        "id": 114,
+        "symbol": "Fl",
+        "name": "Flerovium",
+        "atomicMass": 289,
+        "elementType": "post-transition metal",
+        "yearDiscovered": 1998,
+        "description": "The description for Flerovium."
+    },
+    {
+        "id": 115,
+        "symbol": "Mc",
+        "name": "Moscovium",
+        "atomicMass": 288,
+        "elementType": "post-transition metal",
+        "yearDiscovered": 2003,
+        "description": "The description for Moscovium."
+    },
+    {
+        "id": 116,
+        "symbol": "Lv",
+        "name": "Livermorium",
+        "atomicMass": 293,
+        "elementType": "post-transition metal",
+        "yearDiscovered": 2000,
+        "description": "The description for Livermorium."
+    },
+    {
+        "id": 117,
+        "symbol": "Ts",
+        "name": "Tennessine",
+        "atomicMass": 294,
+        "elementType": "post-transition metal",
+        "yearDiscovered": 2010,
+        "description": "The description for Tennessine."
+    },
+    {
+        "id": 118,
+        "symbol": "Og",
+        "name": "Oganesson",
+        "atomicMass": 294,
+        "elementType": "noble gas",
+        "yearDiscovered": 2002,
+        "description": "The description for Oganesson."
     }
 ]

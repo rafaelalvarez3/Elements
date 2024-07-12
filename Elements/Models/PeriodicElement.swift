@@ -17,9 +17,9 @@ import Foundation
 
 struct PeriodicElement: Hashable, Codable, Identifiable {
     var id: Int
+    var symbol: String
     var name: String
     var atomicMass: Float
-    var symbol: String
     var elementType: String
     var yearDiscovered: Int
     var description: String
