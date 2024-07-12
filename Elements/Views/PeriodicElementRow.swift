@@ -17,7 +17,7 @@ struct PeriodicElementRow: View {
                 .padding()
             Spacer()
             Image(systemName: "arrow.forward")
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .font(.title)
                 .padding()
         }
     }
