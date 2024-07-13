@@ -37,9 +37,58 @@ struct PeriodicElementCell: View {
             }
             Spacer()
                 .frame(height: 30)
-            Capsule()
-                .fill(.orange)
-                .frame(width: 175, height: 10)
+            
+            switch periodicElement.elementType {
+            case "alkali metal":
+                Capsule()
+                    .fill(.purple)
+                    .frame(width: 175, height: 10)
+            case "alkaline earth metal":
+                Capsule()
+                    .fill(.red)
+                    .frame(width: 175, height: 10)
+            case "transition metal":
+                Capsule()
+                    .fill(.brown)
+                    .frame(width: 175, height: 10)
+            case "post-transition metal":
+                Capsule()
+                    .fill(.mint)
+                    .frame(width: 175, height: 10)
+            case "metalloid":
+                Capsule()
+                    .fill(.pink)
+                    .frame(width: 175, height: 10)
+            case "halogen":
+                Capsule()
+                    .fill(.green)
+                    .frame(width: 175, height: 10)
+            case "noble gas":
+                Capsule()
+                    .fill(.white)
+                    .frame(width: 175, height: 10)
+            case "nonmetal":
+                Capsule()
+                    .fill(.orange)
+                    .frame(width: 175, height: 10)
+            case "metal":
+                Capsule()
+                    .fill(.blue)
+                    .frame(width: 175, height: 10)
+            case "actinoid":
+                Capsule()
+                    .fill(.cyan)
+                    .frame(width: 175, height: 10)
+            case "lanthanoid":
+                Capsule()
+                    .fill(.cyan)
+                    .frame(width: 175, height: 10)
+            default:
+                Capsule()
+                    .fill(.black)
+                    .frame(width: 175, height: 10)
+            }
+            
             Spacer()
                 .frame(height: 20)
         }
@@ -62,6 +111,7 @@ struct PeriodicElementCell: View {
                 PeriodicElementCell(periodicElement: periodicElements[2])
                 PeriodicElementCell(periodicElement: periodicElements[3])
                 PeriodicElementCell(periodicElement: periodicElements[4])
+                
             }
             HStack {
                 PeriodicElementCell(periodicElement: periodicElements[5])
@@ -69,13 +119,6 @@ struct PeriodicElementCell: View {
                 PeriodicElementCell(periodicElement: periodicElements[7])
                 PeriodicElementCell(periodicElement: periodicElements[8])
                 PeriodicElementCell(periodicElement: periodicElements[9])
-            }
-            HStack {
-                PeriodicElementCell(periodicElement: periodicElements[10])
-                PeriodicElementCell(periodicElement: periodicElements[11])
-                PeriodicElementCell(periodicElement: periodicElements[12])
-                PeriodicElementCell(periodicElement: periodicElements[13])
-                PeriodicElementCell(periodicElement: periodicElements[14])
             }
         }
         .padding()
