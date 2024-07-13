@@ -18,11 +18,13 @@ enum ElementType {
     case nobleGas
     case lanthanoid
     case actinoid
+    case nonMetal
+    case metal
     
     var typeColor: Color {
         switch self {
         case .alkaliMetal:
-            return .orange
+            return .purple
         case .alkalineEarthMetal:
             return .red
         case .transitionMetal:
@@ -39,7 +41,10 @@ enum ElementType {
             return .yellow
         case .actinoid:
             return .cyan
-        
+        case .metal:
+            return .blue
+        case .nonMetal:
+            return .orange
         }
     }
 }
