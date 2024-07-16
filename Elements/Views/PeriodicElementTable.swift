@@ -25,7 +25,7 @@ struct PeriodicElementTable: View {
                         ForEach(0..<18) { _ in
                             RoundedRectangle(cornerRadius: 10)
                                 .fill(.gray)
-                                .frame(width: 75, height: 75)
+                                .frame(width: 100, height: 100)
                         }
                     }
                 }
