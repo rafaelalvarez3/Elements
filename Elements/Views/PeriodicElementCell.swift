@@ -40,35 +40,35 @@ struct PeriodicElementCell: View {
             switch periodicElement.elementType {
             case "alkali metal":
                 Capsule()
-                    .fill(.purple)
+                    .fill(Color(red: 13 / 255, green: 102 / 255, blue: 102 / 255))
                     .frame(width: 85, height: 7)
             case "alkaline earth metal":
                 Capsule()
-                    .fill(.red)
+                    .fill(Color(red: 99 / 255, green: 46 / 255, blue: 57 / 255))
                     .frame(width: 85, height: 7)
             case "transition metal":
                 Capsule()
-                    .fill(.brown)
+                    .fill(Color(red: 67 / 255, green: 60 / 255, blue: 101 / 255))
                     .frame(width: 85, height: 7)
             case "post-transition metal":
                 Capsule()
-                    .fill(.mint)
+                    .fill(Color(red: 48 / 255, green: 133 / 255, blue: 71 / 255))
                     .frame(width: 85, height: 7)
             case "metalloid":
                 Capsule()
-                    .fill(.pink)
+                    .fill(.orange)
                     .frame(width: 85, height: 7)
             case "halogen":
                 Capsule()
-                    .fill(.green)
+                    .fill(Color(red: 59 / 255, green: 93 / 255, blue: 144 / 255))
                     .frame(width: 85, height: 7)
             case "noble gas":
                 Capsule()
-                    .fill(.white)
+                    .fill(Color(red: 126 / 255, green: 95 / 255, blue: 173 / 255))
                     .frame(width: 85, height: 7)
             case "nonmetal":
                 Capsule()
-                    .fill(.orange)
+                    .fill(Color(red: 42 / 255, green: 65 / 255, blue: 101 / 255))
                     .frame(width: 85, height: 7)
             case "metal":
                 Capsule()
@@ -76,16 +76,17 @@ struct PeriodicElementCell: View {
                     .frame(width: 85, height: 7)
             case "actinoid":
                 Capsule()
-                    .fill(.cyan)
+                    .fill(Color(red: 71 / 255, green: 159 / 255, blue: 195 / 255))
                     .frame(width: 85, height: 7)
             case "lanthanoid":
                 Capsule()
-                    .fill(.mint)
+                    .fill(Color(red: 173 / 255, green: 88 / 255, blue: 76 / 255))
                     .frame(width: 85, height: 7)
             default:
                 Capsule()
                     .fill(.black)
                     .frame(width: 85, height: 7)
+                    .opacity(0)
             }
             
             Spacer()
@@ -105,12 +106,8 @@ struct PeriodicElementCell: View {
     return Group {
         VStack {
             HStack {
-                PeriodicElementCell(periodicElement: periodicElements[0])
-                PeriodicElementCell(periodicElement: periodicElements[1])
-                PeriodicElementCell(periodicElement: periodicElements[2])
-                PeriodicElementCell(periodicElement: periodicElements[3])
-                PeriodicElementCell(periodicElement: periodicElements[4])
-
+                /* To preview a certain element, enter the atomic number minus 1 as the index. */
+                PeriodicElementCell(periodicElement: periodicElements[80])
             }
         }
         .padding()

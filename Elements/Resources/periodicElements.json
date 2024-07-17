@@ -112,7 +112,7 @@
         "name": "Aluminum",
         "atomicMass": 26.981538,
         "symbol": "Al",
-        "elementType": "metal",
+        "elementType": "post-transition metal",
         "yearDiscovered": 1825,
         "description": "The description for Aluminum."
     },
@@ -274,7 +274,7 @@
         "symbol": "Ga",
         "name": "Gallium",
         "atomicMass": 69.723,
-        "elementType": "metal",
+        "elementType": "post-transition metal",
         "yearDiscovered": 1875,
         "description": "The description for Gallium."
     },
@@ -436,7 +436,7 @@
         "symbol": "In",
         "name": "Indium",
         "atomicMass": 114.818,
-        "elementType": "metal",
+        "elementType": "post-transition metal",
         "yearDiscovered": 1863,
         "description": "The description for Indium."
     },
@@ -445,7 +445,7 @@
         "symbol": "Sn",
         "name": "Tin",
         "atomicMass": 118.710,
-        "elementType": "metal",
+        "elementType": "post-transition metal",
         "yearDiscovered": 0,
         "description": "The description for Tin."
     },
@@ -724,7 +724,7 @@
         "symbol": "Tl",
         "name": "Thallium",
         "atomicMass": 204.3833,
-        "elementType": "metal",
+        "elementType": "post-transition metal",
         "yearDiscovered": 1861,
         "description": "The description for Thallium."
     },
@@ -733,7 +733,7 @@
         "symbol": "Pb",
         "name": "Lead",
         "atomicMass": 207.2,
-        "elementType": "metal",
+        "elementType": "post-transition metal",
         "yearDiscovered": 0,
         "description": "The description for Lead."
     },
@@ -742,7 +742,7 @@
         "symbol": "Bi",
         "name": "Bismuth",
         "atomicMass": 208.98040,
-        "elementType": "metal",
+        "elementType": "post-transition metal",
         "yearDiscovered": 0,
         "description": "The description for Bismuth."
     },
@@ -1048,7 +1048,7 @@
         "symbol": "Ts",
         "name": "Tennessine",
         "atomicMass": 294,
-        "elementType": "post-transition metal",
+        "elementType": "halogen",
         "yearDiscovered": 2010,
         "description": "The description for Tennessine."
     },

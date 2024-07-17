@@ -52,7 +52,7 @@ struct PeriodicElementTable: View {
                             PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
                 }
-                    
+                /* Atomic Numbers 11 to 18 */
                 GridRow {
                     PeriodicElementCell(periodicElement: modelData.periodicElements[10])
                     PeriodicElementCell(periodicElement: modelData.periodicElements[11])
