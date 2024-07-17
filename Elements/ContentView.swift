@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        PeriodicElementTable()
-            .padding()
+        VStack {
+            PeriodicElementTable()
+                .padding()
+            PeriodicElementList()
+        }
     }
 }
 
