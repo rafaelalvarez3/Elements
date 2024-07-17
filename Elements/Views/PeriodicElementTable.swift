@@ -10,42 +10,49 @@ import SwiftUI
 struct PeriodicElementTable: View {
     @Environment(ModelData.self) var modelData
     
-    
     var body: some View {
         VStack {
-            //HStack {
-                //ForEach(modelData.periodicElements) { element in
-                    //PeriodicElementCell(periodicElement: element)
-                //}
-            //}
-            
             Grid {
+                
+                /* Atomic Numbers 1 to 2 */
                 GridRow {
+                    
+                    /* Atomic Number 1 */
                     PeriodicElementCell(periodicElement: modelData.periodicElements[0])
-                    ForEach(1..<17) { _ in
+                    
+                    /* 16 empty cells */
+                    ForEach(0..<16) { _ in
                         RoundedRectangle(cornerRadius: 10)
                             .fill(.gray)
                             .frame(width: 100, height: 100)
                             .opacity(0)
                     }
+                    
+                    /* Atomic Number 2 */
                     PeriodicElementCell(periodicElement: modelData.periodicElements[1])
+                    
                 }
+                
+                /* Atomic Numbers 3 to 10 */
                 GridRow {
+                    
+                    /* Atomic Numbers 3 to 4 */
                     PeriodicElementCell(periodicElement: modelData.periodicElements[2])
                     PeriodicElementCell(periodicElement: modelData.periodicElements[3])
-                    ForEach(1..<11) { _ in
+                    
+                    /* 10 empty cells */
+                    ForEach(0..<10) { _ in
                         RoundedRectangle(cornerRadius: 10)
                             .fill(.gray)
                             .frame(width: 100, height: 100)
                             .opacity(0)
                     }
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[4])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[5])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[6])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[7])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[8])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[9])
+                    /* Atomic Numbers 5 to 10 */
+                    ForEach(4..<10) { atomicNumber in
+                            PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
+                    }
                 }
+                    
                 GridRow {
                     PeriodicElementCell(periodicElement: modelData.periodicElements[10])
                     PeriodicElementCell(periodicElement: modelData.periodicElements[11])
@@ -55,13 +62,11 @@ struct PeriodicElementTable: View {
                             .frame(width: 100, height: 100)
                             .opacity(0)
                     }
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[12])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[13])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[14])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[15])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[16])
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[17])
+                    ForEach(12..<18) { atomicNumber in
+                        PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
+                    }
                 }
+                    
                 GridRow {
                     ForEach(18..<36) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
@@ -108,12 +113,12 @@ struct PeriodicElementTable: View {
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
                 }
-                
             }
-            
         }
     }
 }
+
+
 
 #Preview {
     return Group {

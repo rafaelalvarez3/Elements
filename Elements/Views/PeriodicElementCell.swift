@@ -80,7 +80,7 @@ struct PeriodicElementCell: View {
                     .frame(width: 85, height: 7)
             case "lanthanoid":
                 Capsule()
-                    .fill(.cyan)
+                    .fill(.mint)
                     .frame(width: 85, height: 7)
             default:
                 Capsule()
