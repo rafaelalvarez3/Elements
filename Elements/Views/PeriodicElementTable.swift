@@ -54,47 +54,64 @@ struct PeriodicElementTable: View {
                 }
                 /* Atomic Numbers 11 to 18 */
                 GridRow {
+                    /* Atomic Numbers 11 to 12 */
                     PeriodicElementCell(periodicElement: modelData.periodicElements[10])
                     PeriodicElementCell(periodicElement: modelData.periodicElements[11])
-                    ForEach(1..<11) { _ in
+                    
+                    /* 10 empty cells */
+                    ForEach(0..<10) { _ in
                         RoundedRectangle(cornerRadius: 10)
                             .fill(.gray)
                             .frame(width: 100, height: 100)
                             .opacity(0)
                     }
+                    
+                    /* Atomic Numbers 13 to 18 */
                     ForEach(12..<18) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
                 }
-                    
+                
+                /* Atomic Numbers 19 to 36 */
                 GridRow {
                     ForEach(18..<36) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
                 }
+                
+                /* Atomic Numbers 37 to 54 */
                 GridRow {
                     ForEach(36..<54) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
                 }
+                
+                /* Atomic Numbers 55, 56, 72 to 86 */
                 GridRow {
+                    /* Atomic Numbers 55 to 56 */
                     PeriodicElementCell(periodicElement: modelData.periodicElements[54])
                     PeriodicElementCell(periodicElement: modelData.periodicElements[55])
+                    /* 1 empty cell */
                     RoundedRectangle(cornerRadius: 10)
                         .fill(.gray)
                         .frame(width: 100, height: 100)
                         .opacity(0)
+                    /* Atomic Numbers 72 to 86 */
                     ForEach(71..<86) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
                 }
+                /* Atomic Numbers 87, 88, 104 to 118 */
                 GridRow {
+                    /* Atomic Numbers 87 to 88 */
                     PeriodicElementCell(periodicElement: modelData.periodicElements[86])
                     PeriodicElementCell(periodicElement: modelData.periodicElements[87])
+                    /* 1 empty cell */
                     RoundedRectangle(cornerRadius: 10)
                         .fill(.gray)
                         .frame(width: 100, height: 100)
                         .opacity(0)
+                    /* Atomic Numbers 104 to 118 */
                     ForEach(103..<118) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
@@ -102,13 +119,19 @@ struct PeriodicElementTable: View {
             }
             Spacer()
                 .frame(height: 75)
+            
+            /* Atomic Numbers 57 to 71, 89 to 103 */
             Grid {
+                /* Lanthanides */
                 GridRow {
+                    /* Atomic Numbers 57 to 71 */
                     ForEach(56..<71) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
                 }
+                /* Actinides */
                 GridRow {
+                    /* Atomic Numbers 89 to 103 */
                     ForEach(88..<103) { atomicNumber in
                         PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
                     }
