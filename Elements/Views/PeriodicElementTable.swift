@@ -18,7 +18,13 @@ struct PeriodicElementTable: View {
                 GridRow {
                     
                     /* Atomic Number 1 */
-                    PeriodicElementCell(periodicElement: modelData.periodicElements[0])
+                    Button {
+                        
+                    } label: {
+                        PeriodicElementCell(periodicElement: modelData.periodicElements[0])
+                    }
+                    .buttonStyle(.plain)
+                    
                     
                     /* 16 empty cells */
                     ForEach(0..<16) { _ in
