@@ -14,195 +14,74 @@ struct PeriodicElementTable: View {
         NavigationStack {
             VStack {
                 Grid {
-                    /* Atomic Numbers 1 to 2 */
-                    GridRow {
-                        /* Atomic Number 1 */
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[0])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[0])
-                        }
-                        .buttonStyle(.plain)
-                        /* 16 empty cells */
-                        ForEach(0..<16) { _ in
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(.gray)
-                                .frame(width: 100, height: 100)
-                                .opacity(0)
-                        }
-                        /* Atomic Number 2 */
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[1])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[1])
-                        }
-                        .buttonStyle(.plain)
+                    GridRow { /* Atomic Numbers 1 to 2 */
+                        generateCells(1, 1)
+                        emptyCells(16)
+                        generateCells(2, 2)
                     }
-                    /* Atomic Numbers 3 to 10 */
-                    GridRow {
-                        /* Atomic Numbers 3 to 4 */
-                        ForEach(2..<4) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
-                        /* 10 empty cells */
-                        ForEach(0..<10) { _ in
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(.gray)
-                                .frame(width: 100, height: 100)
-                                .opacity(0)
-                        }
-                        /* Atomic Numbers 5 to 10 */
-                        ForEach(4..<10) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Atomic Numbers 3 to 10 */
+                        generateCells(3, 4)
+                        emptyCells(10)
+                        generateCells(5, 10)
                     }
-                    /* Atomic Numbers 11 to 18 */
-                    GridRow {
-                        /* Atomic Numbers 11 to 12 */
-                        ForEach(10..<12) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
-                        /* 10 empty cells */
-                        ForEach(0..<10) { _ in
-                            RoundedRectangle(cornerRadius: 10)
-                                .fill(.gray)
-                                .frame(width: 100, height: 100)
-                                .opacity(0)
-                        }
-                        
-                        /* Atomic Numbers 13 to 18 */
-                        ForEach(12..<18) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Atomic Numbers 11 to 18 */
+                        generateCells(11, 12)
+                        emptyCells(10)
+                        generateCells(13, 18)
                     }
-                    
-                    /* Atomic Numbers 19 to 36 */
-                    GridRow {
-                        ForEach(18..<36) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Atomic Numbers 19 to 36 */
+                        generateCells(19, 36)
                     }
-                    
-                    /* Atomic Numbers 37 to 54 */
-                    GridRow {
-                        ForEach(36..<54) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Atomic Numbers 37 to 54 */
+                        generateCells(37, 54)
                     }
-                    
-                    /* Atomic Numbers 55, 56, 72 to 86 */
-                    GridRow {
-                        /* Atomic Numbers 55 to 56 */
-                        ForEach(54..<56) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
-                        /* 1 empty cell */
-                        RoundedRectangle(cornerRadius: 10)
-                            .fill(.gray)
-                            .frame(width: 100, height: 100)
-                            .opacity(0)
-                        /* Atomic Numbers 72 to 86 */
-                        ForEach(71..<86) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Atomic Numbers 55, 56, 72 to 86 */
+                        generateCells(55, 56)
+                        emptyCells(1)
+                        generateCells(72, 86)
                     }
-                    /* Atomic Numbers 87, 88, 104 to 118 */
-                    GridRow {
-                        /* Atomic Numbers 87 to 88 */
-                        ForEach(86..<88) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
-                        /* 1 empty cell */
-                        RoundedRectangle(cornerRadius: 10)
-                            .fill(.gray)
-                            .frame(width: 100, height: 100)
-                            .opacity(0)
-                        /* Atomic Numbers 104 to 118 */
-                        ForEach(103..<118) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Atomic Numbers 87, 88, 104 to 118 */
+                        generateCells(87, 88)
+                        emptyCells(1)
+                        generateCells(104, 118)
                     }
                 }
                 Spacer()
                     .frame(height: 75)
-                /* Atomic Numbers 57 to 71, 89 to 103 */
                 Grid {
-                    /* Lanthanides */
-                    GridRow {
-                        /* Atomic Numbers 57 to 71 */
-                        ForEach(56..<71) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Lanthanides */
+                        generateCells(57, 71)
                     }
-                    /* Actinides */
-                    GridRow {
-                        /* Atomic Numbers 89 to 103 */
-                        ForEach(88..<103) { atomicNumber in
-                            NavigationLink {
-                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
-                            } label: {
-                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
-                            }
-                            .buttonStyle(.plain)
-                        }
+                    GridRow { /* Actinides */
+                        generateCells(89, 103)
                     }
                 }
             }
+        }
+    }
+    
+    func generateCells(_ atomicNumStart: Int, _ atomicNumEnd: Int) -> some View {
+        let start = atomicNumStart - 1
+        let end = atomicNumEnd
+        
+        return ForEach(start ..< end, id: \.self) { atomicNumber in
+            NavigationLink {
+                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
+            } label: {
+                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
+            }
+            .buttonStyle(.plain)
+        }
+    }
+    
+    func emptyCells(_ amountOfCells: Int) -> some View {
+        let amount = amountOfCells
+        
+        return ForEach(0 ..< amount, id: \.self) { _ in
+            RoundedRectangle(cornerRadius: 10)
+                .fill(.gray)
+                .frame(width: 100, height: 100)
+                .opacity(0)
         }
     }
 }
