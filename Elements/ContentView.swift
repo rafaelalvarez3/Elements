@@ -12,7 +12,6 @@ struct ContentView: View {
         HStack {
             PeriodicElementTable()
                 .padding()
-            
         }
     }
 }
