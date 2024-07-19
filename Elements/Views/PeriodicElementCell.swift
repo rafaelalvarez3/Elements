@@ -38,47 +38,47 @@ struct PeriodicElementCell: View {
                 .frame(height: 7)
             
             switch periodicElement.elementType {
-            case "alkali metal":
+            case "Alkali Metal":
                 Capsule()
                     .fill(Color(red: 13 / 255, green: 102 / 255, blue: 102 / 255))
                     .frame(width: 85, height: 7)
-            case "alkaline earth metal":
+            case "Alkaline Earth Metal":
                 Capsule()
                     .fill(Color(red: 99 / 255, green: 46 / 255, blue: 57 / 255))
                     .frame(width: 85, height: 7)
-            case "transition metal":
+            case "Transition Metal":
                 Capsule()
                     .fill(Color(red: 67 / 255, green: 60 / 255, blue: 101 / 255))
                     .frame(width: 85, height: 7)
-            case "post-transition metal":
+            case "Post-transition Metal":
                 Capsule()
                     .fill(Color(red: 48 / 255, green: 133 / 255, blue: 71 / 255))
                     .frame(width: 85, height: 7)
-            case "metalloid":
+            case "Metalloid":
                 Capsule()
                     .fill(.orange)
                     .frame(width: 85, height: 7)
-            case "halogen":
+            case "Halogen":
                 Capsule()
                     .fill(Color(red: 59 / 255, green: 93 / 255, blue: 144 / 255))
                     .frame(width: 85, height: 7)
-            case "noble gas":
+            case "Noble gas":
                 Capsule()
                     .fill(Color(red: 126 / 255, green: 95 / 255, blue: 173 / 255))
                     .frame(width: 85, height: 7)
-            case "nonmetal":
+            case "Nonmetal":
                 Capsule()
                     .fill(Color(red: 42 / 255, green: 65 / 255, blue: 101 / 255))
                     .frame(width: 85, height: 7)
-            case "metal":
+            case "Metal":
                 Capsule()
                     .fill(.blue)
                     .frame(width: 85, height: 7)
-            case "actinoid":
+            case "Actinoid":
                 Capsule()
                     .fill(Color(red: 71 / 255, green: 159 / 255, blue: 195 / 255))
                     .frame(width: 85, height: 7)
-            case "lanthanoid":
+            case "Lanthanoid":
                 Capsule()
                     .fill(Color(red: 173 / 255, green: 88 / 255, blue: 76 / 255))
                     .frame(width: 85, height: 7)
