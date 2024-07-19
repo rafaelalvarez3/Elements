@@ -10,12 +10,10 @@ import SwiftUI
 struct PeriodicElementTable: View {
     @Environment(ModelData.self) var modelData
     
-    
     var body: some View {
         NavigationStack {
             VStack {
                 Grid {
-                    
                     /* Atomic Numbers 1 to 2 */
                     GridRow {
                         /* Atomic Number 1 */
@@ -25,7 +23,6 @@ struct PeriodicElementTable: View {
                             PeriodicElementCell(periodicElement: modelData.periodicElements[0])
                         }
                         .buttonStyle(.plain)
-                        
                         /* 16 empty cells */
                         ForEach(0..<16) { _ in
                             RoundedRectangle(cornerRadius: 10)
@@ -33,7 +30,6 @@ struct PeriodicElementTable: View {
                                 .frame(width: 100, height: 100)
                                 .opacity(0)
                         }
-                        
                         /* Atomic Number 2 */
                         NavigationLink {
                             PeriodicElementDetail(periodicElement: modelData.periodicElements[1])
@@ -42,26 +38,17 @@ struct PeriodicElementTable: View {
                         }
                         .buttonStyle(.plain)
                     }
-                    
                     /* Atomic Numbers 3 to 10 */
                     GridRow {
-                        
                         /* Atomic Numbers 3 to 4 */
-
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[2])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[2])
+                        ForEach(2..<4) { atomicNumber in
+                            NavigationLink {
+                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
+                            } label: {
+                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
-                        
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[3])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[3])
-                        }
-                        .buttonStyle(.plain)
-                        
                         /* 10 empty cells */
                         ForEach(0..<10) { _ in
                             RoundedRectangle(cornerRadius: 10)
@@ -82,20 +69,14 @@ struct PeriodicElementTable: View {
                     /* Atomic Numbers 11 to 18 */
                     GridRow {
                         /* Atomic Numbers 11 to 12 */
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[10])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[10])
+                        ForEach(10..<12) { atomicNumber in
+                            NavigationLink {
+                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
+                            } label: {
+                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
-                        
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[11])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[11])
-                        }
-                        .buttonStyle(.plain)
-                        
                         /* 10 empty cells */
                         ForEach(0..<10) { _ in
                             RoundedRectangle(cornerRadius: 10)
@@ -142,20 +123,14 @@ struct PeriodicElementTable: View {
                     /* Atomic Numbers 55, 56, 72 to 86 */
                     GridRow {
                         /* Atomic Numbers 55 to 56 */
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[54])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[54])
+                        ForEach(54..<56) { atomicNumber in
+                            NavigationLink {
+                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
+                            } label: {
+                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
-                        
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[55])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[55])
-                        }
-                        .buttonStyle(.plain)
-                        
                         /* 1 empty cell */
                         RoundedRectangle(cornerRadius: 10)
                             .fill(.gray)
@@ -174,21 +149,14 @@ struct PeriodicElementTable: View {
                     /* Atomic Numbers 87, 88, 104 to 118 */
                     GridRow {
                         /* Atomic Numbers 87 to 88 */
-
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[86])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[86])
+                        ForEach(86..<88) { atomicNumber in
+                            NavigationLink {
+                                PeriodicElementDetail(periodicElement: modelData.periodicElements[atomicNumber])
+                            } label: {
+                                PeriodicElementCell(periodicElement: modelData.periodicElements[atomicNumber])
+                            }
+                            .buttonStyle(.plain)
                         }
-                        .buttonStyle(.plain)
-                        
-                        NavigationLink {
-                            PeriodicElementDetail(periodicElement: modelData.periodicElements[87])
-                        } label: {
-                            PeriodicElementCell(periodicElement: modelData.periodicElements[87])
-                        }
-                        .buttonStyle(.plain)
-                        
                         /* 1 empty cell */
                         RoundedRectangle(cornerRadius: 10)
                             .fill(.gray)
@@ -207,7 +175,6 @@ struct PeriodicElementTable: View {
                 }
                 Spacer()
                     .frame(height: 75)
-                
                 /* Atomic Numbers 57 to 71, 89 to 103 */
                 Grid {
                     /* Lanthanides */
@@ -239,8 +206,6 @@ struct PeriodicElementTable: View {
         }
     }
 }
-
-
 
 #Preview {
     return Group {
