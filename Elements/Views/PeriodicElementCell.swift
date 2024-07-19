@@ -105,7 +105,7 @@ struct PeriodicElementCell: View {
             .frame(width: 100, height: 100)
         }
         .buttonStyle(.plain)
-        .scaleEffect(isHover ? 1.2 : 1)
+        .scaleEffect(isHover ? 1.085 : 1)
         .onHover(perform: { hover in
             isHover = hover
         })
